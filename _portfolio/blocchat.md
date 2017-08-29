@@ -22,7 +22,7 @@ These needs requires the chat application to have features such as listing avail
 In order to store and sync chatrooms their messages between users in realtime, I use Firebase Realtime Database, a cloud-hosted NoSQL database.
 
 {:.center}
-![]({{ site.baseurl }}/img/firebase.png)
+![]({{ site.baseurl }}/img/firebase.PNG)
 
 I created an Angular factory, named `Room`, in which I defined all Room-related API queries, to query a list of Rooms from Firebase.
 
@@ -119,7 +119,7 @@ this.open = function() {
 Next, I created `addRoom.html` template and a separate controller, `ModalCtrl`, for the modal.
 
 {:.center}
-![]({{ site.baseurl }}/img/addRoom.png)
+![]({{ site.baseurl }}/img/addRoom.PNG)
 
 In`addRoom.html` template, I used `ngClick` to call `ModalCtrl`'s **ok** method.
 
@@ -234,7 +234,7 @@ In order to efficiently store and display a **username** in chat rooms, I used c
 If a username is not present, another UI Bootstrap modal is triggered to require the user to enter one. 
 
 {:.center}
-![]({{ site.baseurl }}/img/username.png)
+![]({{ site.baseurl }}/img/username.PNG)
 
 ## Results
 
