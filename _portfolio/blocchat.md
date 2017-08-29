@@ -1,7 +1,7 @@
 ---
 layout: post
 title: BlocChat
-thumbnail-path: "img/blocchat.png"
+thumbnail-path: "img/blocchat.PNG"
 short-description: BlocChat is a chat aplication that sends and receives messages in real time.
 
 ---
@@ -241,7 +241,7 @@ If a username is not present, another UI Bootstrap modal is triggered to require
 Now we have a nice chat app updating messages in real time.
 
 {:.center}
-![]({{ site.baseurl }}/img/blocchat.png)
+![]({{ site.baseurl }}/img/blocchat.PNG)
 
 ## Conclusion
 
